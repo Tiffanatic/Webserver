@@ -1,0 +1,6 @@
+﻿services:
+  webserver:
+    image: webserver
+    build:
+      context: .
+      dockerfile: Webserver/Dockerfile
